@@ -11,7 +11,7 @@ public class PrjController {
 		
 		System.out.println("aa");
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("emppage"); 
+		mv.setViewName("employee/emppage"); 
 		return mv;
 	}
 }
